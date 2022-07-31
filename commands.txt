@@ -1,0 +1,35 @@
+Basic git commands:
+
+git init ---- initialize local repo
+
+git status
+
+git add .
+
+git commit -m "what did you change?"
+
+git push -u origin master   # remember push to origin master next time, directly use git push
+
+git pull origin master
+
+# when local branch conflicts to remote one, used forced update
+git push -f origin master
+
+# squash commits to one final condensed commit
+# to make git log concise and neat
+# NOTICE! before rebase, you know make sure already did git push to make local and remote repo identical
+git rebase -i HEAD~n   # here n is the number of commits required to squash
+
+git rebase -i commit_num  # squash commits from head till including this number
+
+# link local repo to remote repo
+git remote add origin remote_http_url
+git remote -v
+
+# create a new branch
+git checkout -b newbranch  # -b means creating and copying from current branch
+# merge master branch to new branch
+git merge master
+
+# For forking an existing project, link to the upstream (original remote repo)
+git remote add upstream url_thatrepo
