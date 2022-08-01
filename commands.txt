@@ -35,7 +35,9 @@ git push --set-upstream origin newbranch  # after create a new branch, set up it
 
 
 # merge master branch to new branch, when other team members made new features
-git merge master
+git merge master   # for locally, merge master to another branch
+git pull origin master    # from remote master pull changes to local
+
 
 # For forking an existing project, link to the upstream (original remote repo)
 git remote add upstream url_thatrepo
