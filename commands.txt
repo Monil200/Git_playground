@@ -19,8 +19,11 @@ git push -f origin master
 # to make git log concise and neat
 # NOTICE! before rebase, you know make sure already did git push to make local and remote repo identical
 git rebase -i HEAD~n   # here n is the number of commits required to squash
-
 git rebase -i commit_num  # squash commits from head till including this number
+# TIPs!! after git rebase, must do git push -f origin master to make local and remote repo identical
+# must do this!!! Otherwise, you get "Your branch and origin/master" have diverged, and have 1 and 4 (number of
+# your squashed commits) different commits each, ....
+
 
 # link local repo to remote repo
 git remote add origin remote_http_url
