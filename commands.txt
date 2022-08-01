@@ -30,7 +30,10 @@ git remote add origin remote_http_url
 git remote -v
 
 # create a new branch
-git checkout -b newbranch  # -b means creating and copying from current branch
+git checkout -b newbranch  # -b means creating and copying from current branch, and switch to newbranch
+git push --set-upstream origin newbranch  # after create a new branch, set up its upstream -- origin newbranch
+
+
 # merge master branch to new branch
 git merge master
 
