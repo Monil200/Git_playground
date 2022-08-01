@@ -39,5 +39,12 @@ git merge master   # for locally, merge master to another branch
 git pull origin master    # from remote master pull changes to local
 
 
-# For forking an existing project, link to the upstream (original remote repo)
+# For forking an existing project and work on it, 
+1. fork it to your own account/that_repo_name
+2. git clone url_of_above_repo  ---- clone to local folder (repo)
+3. git branch mylocal, work on this local branch
+4. link to the upstream (original remote repo)
 git remote add upstream url_thatrepo
+git remote -v   # see your copied repo is origin, and that one is upstream
+5. (mylocal) git push origin master
+6. on Github, create pull request to merge GraceCS/mylocal to Comm/CommclassroomOP
