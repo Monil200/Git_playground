@@ -34,7 +34,7 @@ git checkout -b newbranch  # -b means creating and copying from current branch, 
 git push --set-upstream origin newbranch  # after create a new branch, set up its upstream -- origin newbranch
 
 
-# merge master branch to new branch
+# merge master branch to new branch, when other team members made new features
 git merge master
 
 # For forking an existing project, link to the upstream (original remote repo)
