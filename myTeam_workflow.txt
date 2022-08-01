@@ -15,6 +15,8 @@ git commit -m "change messages"
 git push --set-upstrem origin mybranch   # keep local mybranch and remote mybranch the same
 
 # --- on GitHub, create pull request to merge mybranch into master
+# after merge pull request, in local terminal:
+git pull origin master    # to make local master up to date
 
 # --- for merge conflict (no matter what reasons cause), two ways to resolve it:
 
