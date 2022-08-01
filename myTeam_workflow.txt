@@ -26,4 +26,7 @@ then git push origin master
 # --- rebase tips
 after rebase, must do git push -f origin master, to keep local and remote master sync!
 
+# --- for the new features added by other team members, pull and get the latest contents
+git pull origin master
+
 
