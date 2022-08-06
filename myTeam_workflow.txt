@@ -1,5 +1,8 @@
 # Basic teamwork workflow
 
+!!! Always create a new branch for a new feature about to add, 
+and remember one PR corresponds to one branch, all commits belonging to this branch will go to the same PR
+
 git checkout master
 
 git pull
