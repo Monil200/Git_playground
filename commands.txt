@@ -48,3 +48,10 @@ git remote add upstream url_thatrepo
 git remote -v   # see your copied repo is origin, and that one is upstream
 5. (mylocal) git push origin master
 6. on Github, create pull request to merge GraceCS/mylocal to Comm/CommclassroomOP
+
+git commit --amend   # change the commit message for the very last one commit
+
+# don't know how to use git patch now, but I will soon
+git patch
+
+
