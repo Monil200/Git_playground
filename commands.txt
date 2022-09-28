@@ -55,3 +55,6 @@ git commit --amend   # change the commit message for the very last one commit
 git patch
 
 
+# about the key operation in git rebase
+
+

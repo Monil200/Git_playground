@@ -1,0 +1,12 @@
+# collect basic shell commands
+ls
+
+mkdir
+
+scp -r source destination       # copy from source to destination
+
+~       # refers to path: /user/becao/  becao: current username
+
+# create virtual environment and activate: always create it under ~
+virtualenv -p python3 ~/mirage_env
+source ~/mirage_env/bin/activate
