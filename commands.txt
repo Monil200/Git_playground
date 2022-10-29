@@ -35,7 +35,7 @@ git push --set-upstream origin newbranch  # after create a new branch, set up it
 
 
 # merge master branch to new branch, when other team members made new features
-git merge master   # for locally, merge master to another branch
+git merge master   # for locally, merge master to another branch  -- the branch you're current on
 git pull origin master    # from remote master pull changes to local
 
 
@@ -52,9 +52,11 @@ git remote -v   # see your copied repo is origin, and that one is upstream
 git commit --amend   # change the commit message for the very last one commit
 
 # don't know how to use git patch now, but I will soon
-git patch
+# git patch
 
 
 # about the key operation in git rebase
 # use :x to exit the edit window of rebase !!
+
+git reset --hard commitID   # return the previous version
 
