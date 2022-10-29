@@ -56,5 +56,5 @@ git patch
 
 
 # about the key operation in git rebase
-
+# use :x to exit the edit window of rebase !!
 
