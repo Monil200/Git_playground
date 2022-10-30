@@ -1,0 +1,30 @@
+how to install zsh in raspberry pi:
+
+$ sudo apt install zsh -y
+
+or 
+
+$ sudo apt-get install zsh
+
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+or
+
+$ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+$ chsh -s /bin/zsh  # set zsh as default shell if needed
+
+~ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+~ nano ~/.zshrc
+
+plugins=(zsh-autosuggestions)
+
+~ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+plugins=(zsh-syntax-highlighting)
+
+or 
+
+plugins=(git zsh-autosuggestions autojump zsh-syntax-highlighting)
+
