@@ -28,3 +28,21 @@ or
 
 plugins=(git zsh-autosuggestions autojump zsh-syntax-highlighting)
 
+To make your new setting take effect, need to hit:
+
+$ source ~/.zshrc
+
+Change the style ----- :)
+
+first change from default:robbyrussell to agnoster
+
+$ sudo apt-get install fonts-powerline   # first install powerline font
+
+$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k   # clone powerlevel10k
+
+$ nano /.zshrc          # ZSH_THEME="powerlevel10k/powerlevel10k"
+
+$ source ~/.zshrc       # activate it 
+
+
+
