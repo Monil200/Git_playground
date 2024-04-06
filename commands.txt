@@ -54,6 +54,10 @@ git commit --amend   # change the commit message for the very last one commit
 # don't know how to use git patch now, but I will soon
 # git patch
 
+# git checkout - it helps in checkout out version of file(s) from remote upstream or undo a local change
+# eg: git checkout -- . -> undo all locale changes
+# eg: git checkout upstream/master abc.txt -> checks out abc.txt on upstream master branch
+
 
 # about the key operation in git rebase
 # use :x to exit the edit window of rebase !!
